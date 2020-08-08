@@ -34,6 +34,26 @@ def ej1():
       ej: La suma entre 4.2 y 6.5 es 10.7
 
     '''
+    numero_1 = 4.2
+    numero_2 = 6.5
+
+    suma = numero_1 + numero_2
+    print(suma)
+
+    resta = numero_1 - numero_2
+    print(resta)
+
+    multiplicacion = numero_1 * numero_2
+    print(multiplicacion)
+
+    divicion = numero_1 / numero_2
+    print(divicion)
+
+    potencia = numero_1 ** numero_2
+    print(potencia)
+
+
+
 
 
 def ej2():
@@ -55,6 +75,25 @@ def ej2():
       entienda de que se está hablando.
 
     '''
+    print("ingrese nombre completo")
+    nombre = str(input())
+    print("nombre ingresado", nombre)
+
+    print("ingrese DNI")
+    DNI = int(input())
+    print("DNI ingresado", DNI)
+
+    print("ingrese su edad")
+    edad = int(input())
+    print("edad ingresada", edad)
+
+    print("ingrese su altura")
+    altura = float(input())
+    print("altura ingresada", altura)
+
+    print(nombre, + DNI)
+
+    print(nombre, + edad, + altura)
 
 
 def ej3():
@@ -89,6 +128,24 @@ def ej3():
     Cualquier duda con el método split pueden consultarla por el campus
 
     '''
+    print("ingrese nombre completo padre")
+    nombre = str(input())
+    print("nobre ingresado", nombre)
+
+    print("ingrese nombre completo de la madre")
+    nombre = str(input())
+    print("nombre ingresado", nombre)
+
+    print("ingrese nobre de la hija")
+    nombre = str(input())
+    print("nombre ingresado", nombre)
+
+    nombre = "rodrigo, rinaldi"
+    nombre, apellido = nombre.split(" , ")
+
+
+    nombre = "laura, gomez"
+    nombre, apellido = nombre.split(" , ")
 
 
 def ej4():
@@ -151,10 +208,12 @@ def ej5():
     '''
 
 
+
+
 if __name__ == '__main__':
     print("Ejercicios de práctica")
-    ej1()
+    # ej1()
     # ej2()
-    # ej3()
+    ej3()
     # ej4()
     # ej5()
