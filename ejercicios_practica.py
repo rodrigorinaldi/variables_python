@@ -140,12 +140,16 @@ def ej3():
     nombre = str(input())
     print("nombre ingresado", nombre)
 
-    nombre = "rodrigo, rinaldi"
-    nombre, apellido = nombre.split(" , ")
+    nombre = "Rodrigo, Rinaldi"
+    nombre, apellido_1 = nombre.split(", ")
 
+    nombre = "Laura, Gomez"
+    nombre, apellido_2 = nombre.split(", ")
 
-    nombre = "laura, gomez"
-    nombre, apellido = nombre.split(" , ")
+    nombre = "Esmeralda Leia"
+    nombre = nombre 
+    
+    print(nombre, apellido_1+apellido_2)
 
 
 def ej4():
@@ -180,6 +184,41 @@ def ej4():
 
     Cualquier duda con el método split pueden consultarla por el campus
     '''
+    persona_1 = "Elio, Menna"
+    persona_2 = "German, Zapata"
+
+    print("ingrese nombre completo persona_1") 
+    nombre = str(input())
+    print("nombre ingresado", nombre )
+
+    print("ingrese nombre completo persona_2")
+    nombre = str(input())
+    print("nombre ingresado", nombre)
+
+    nombre = "German, Zapata"
+    nombre, apellido_2 = nombre.split(", ")
+
+    print(apellido_2)
+
+    if "German Zapata" in (persona_1):
+          print("son primos")
+    else:
+      print("no son primos")  
+
+    print("son amigos")      
+
+
+
+    
+
+
+
+
+    
+
+
+
+
 
 
 def ej5():
@@ -208,12 +247,35 @@ def ej5():
     '''
 
 
+    nombre = "Nestor Basset"
+
+
+    print("nombre completo")
+    nombre = str(input())
+    print("nombre ingresado", nombre)
+
+    print(nombre.lower())
+
+    print(nombre.upper())
+
+    print(nombre.capitalize())
+
+
+
+
+    
+
+
+    
+
+
+
 
 
 if __name__ == '__main__':
     print("Ejercicios de práctica")
     # ej1()
     # ej2()
-    ej3()
+    # ej3()
     # ej4()
     # ej5()
